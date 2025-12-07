@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        #error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Student List</h1>
+
+<p id="error"></p>
+
+<table id="studentTable">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Major</th>
+            <th>Enroll Year</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script>
+    async function loadStudents() {
+        try {
+            const response = await fetch("http://localhost:5231/api/students");
+            const data = await response.json();
+
+            const tbody = document.querySelector("#studentTable tbody");
+            tbody.innerHTML = "";
+
+            data.forEach(student => {
+                const row = `
+                    <tr>
+                        <td>${student.student_Id}</td>
+                        <td>${student.first_Name}</td>
+                        <td>${student.last_Name}</td>
+                        <td>${student.email}</td>
+                        <td>${student.major}</td>
+                        <td>${student.enroll_Year}</td>
+                    </tr>
+                `;
+                tbody.innerHTML += row;
+            });
+        }
+        catch (err) {
+            document.getElementById("error").textContent =
+                "Error loading student data: " + err;
+        }
+    }
+
+    loadStudents(); // load data on page load
+</script>
+
+</body>
+</html>

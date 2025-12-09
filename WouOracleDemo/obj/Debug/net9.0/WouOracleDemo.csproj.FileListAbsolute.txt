@@ -1,5 +1,6 @@
 C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\bin\Debug\net9.0\appsettings.json
+C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\bin\Debug\net9.0\WouOracleDemo.staticwebassets.runtime.json
 C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\bin\Debug\net9.0\WouOracleDemo.staticwebassets.endpoints.json
 C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\bin\Debug\net9.0\WouOracleDemo.exe
 C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\bin\Debug\net9.0\WouOracleDemo.deps.json
@@ -32,6 +33,9 @@ C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\obj\Debug\net9.0\rji
 C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
 C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\obj\Debug\net9.0\scopedcss\bundle\WouOracleDemo.styles.css
+C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\obj\Debug\net9.0\compressed\4i7fup0yys-6hnzp4e9ru.gz
+C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\obj\Debug\net9.0\compressed\lr2nvvmkr9-ghybnbt0ma.gz
+C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\obj\Debug\net9.0\compressed\2ep5s1bp8r-oecnqus16a.gz
 C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\ander\OneDrive\Desktop\WOUOracleDemo\WouOracleDemo\obj\Debug\net9.0\staticwebassets.development.json
